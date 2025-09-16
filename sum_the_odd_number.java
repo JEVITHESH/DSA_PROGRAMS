@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	  Scanner sc = new Scanner(System.in);
+	  System.out.print("Enter the n number : ");
+	  int num = sc.nextInt();
+	  
+	 if(num%2==0) 
+	  System.out.println((num/2)); //[1,2,3,4,5]
+	  else{
+	      System.out.println((num/2)+ 1);
+	  }
+	  
+	 
+	}
+}
