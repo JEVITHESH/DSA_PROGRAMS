@@ -6,12 +6,17 @@ public class Main
 	  System.out.print("Enter the n number : ");
 	  int num = sc.nextInt();
 	  
-	 if(num%2==0) 
-	  System.out.println((num/2)); //[1,2,3,4,5]
-	  else{
-	      System.out.println((num/2)+ 1);
+	 if(num%2==0) //4 % 2 == 0
+	  System.out.println((num/2)); // 4/2 => 2
+	  else{  //5 % 2 != 1
+	      System.out.println((num/2)+ 1); // (5/2) + 1 
 	  }
 	  
 	 
 	}
 }
+//output
+//Enter the n number : 5
+//3
+//Enter the n number : 4 
+//2
