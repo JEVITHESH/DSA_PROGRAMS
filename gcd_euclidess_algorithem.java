@@ -1,9 +1,11 @@
 import java.util.Scanner;
 public class Main
 {
-  //long devision
+  //long devision                                    
   //greatest commen devisor between 2 numbers
   //the answer is devisor
+  // 12 - 1,2,3,4,6,12
+  // 18 - 1,2,3,6,9,18
 	public static void main(String[] args) {
 	   int a,b,temp;
 	   Scanner sc = new Scanner(System.in);
@@ -20,3 +22,7 @@ public class Main
 	    System.out.println(b);
 	}
 }
+//output 
+//Enter the a : 12
+//Enter the b : 18
+//6
