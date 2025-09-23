@@ -3,6 +3,7 @@ import java.lang.Math;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the number : ");
         int a = sc.nextInt();
         int tem = a;
         int f = 0;
@@ -20,3 +21,6 @@ public class Main {
         }
     }
 }
+//output
+//Enter the number : 153
+//NA
