@@ -19,10 +19,10 @@ class Main {
        String n = "aab";
        System.out.println(n);
        if(asc(n)==true){
-           System.out.print("no");
+           System.out.print("yes");
        }
        else{
-           System.out.print("yes");
+           System.out.print("no");
        }
     }}
 //output
