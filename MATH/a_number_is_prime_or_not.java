@@ -30,7 +30,7 @@ class Main {
              
                 return false;
           }
-                 0
+                 
       }
       return true;
     }
